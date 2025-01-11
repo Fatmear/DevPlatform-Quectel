@@ -1,0 +1,9 @@
+{
+    "name": "Quectel",
+    "description": "Quectel OpenCPU development platform",
+    "version": "v0.1.2",
+    "frameworks": [
+        "CSDK"
+    ],
+    "contributor": "Quectel"
+}

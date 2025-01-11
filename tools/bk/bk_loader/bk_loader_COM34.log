@@ -1,0 +1,144 @@
+
+
+
+=====================================================================
+ cmdline: |C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\platforms\Quectel/tools/bk/bk_loader/bk_loader.exe download -p 34 -b 921600 -i C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\bb\F01DR01\ql_out\all_2M.1220.bin |
+ bk_loader version 2.1.11.15: build @Nov 14 2024 19:17:41 
+ 2025-01-09 21:04:13.210    Current port : COM34 + BaudRate : 115200 connect success
+ 2025-01-09 21:04:13.211    do_reset_signal
+ 2025-01-09 21:04:13.211    Getting Bus...
+ 2025-01-09 21:04:14.218    Getting Bus...
+ 2025-01-09 21:04:16.299    Gotten Bus...
+ 2025-01-09 21:04:16.305    Got ChipId: 0x7231c
+
+ 2025-01-09 21:04:16.305    Current Chip is : BK7231N
+ 2025-01-09 21:04:16.315    rxf-uid : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+ 2025-01-09 21:04:16.315    Got FLashMID: 0x15701c
+
+ 2025-01-09 21:04:16.332    Current baudrate : 921600 success
+ 2025-01-09 21:04:16.332    Unprotecting Flash
+ 2025-01-09 21:04:16.355    Unprotected Flash ->pass
+ 2025-01-09 21:04:16.355    [ 0 ] file_startAddr : 0x00000000
+ 2025-01-09 21:04:16.356    [ 0 ] file_path : C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\bb\F01DR01\ql_out\all_2M.1220.bin
+ 2025-01-09 21:04:16.356    [ 0 ] file_length : 0x132000 (1224 KB)
+ 2025-01-09 21:04:16.356    [ 0 ] file_crc : 0xab2870d7
+ 2025-01-09 21:04:16.356    Begin EraseFlash
+ 2025-01-09 21:04:16.356    Start 4K Erase
+ 2025-01-09 21:04:16.357    End 4K Erase
+ 2025-01-09 21:04:16.357    Start 64K Erase
+ 2025-01-09 21:04:20.151    End 64K Erase
+ 2025-01-09 21:04:20.152    EraseFlash ->pass
+ 2025-01-09 21:04:20.155    [ 0 ] Begin write to flash...
+ 2025-01-09 21:04:38.836    WriteFlash ->pass
+ 2025-01-09 21:04:38.860    Enprotect pass
+ 2025-01-09 21:04:38.894    Boot_Reboot
+
+ 2025-01-09 21:04:38.914    Total Test Time : 22.613 s
+ 2025-01-09 21:04:38.914    Writing Flash OK                             
+
+ 2025-01-09 21:04:38.915    
+==============================================================
+     _             (done)
+    | |                 
+  __| | ___  _ __   ___ 
+ / _  |/ _ \|  _ \ / _ \
+| (_| | (_) | | | |  __/
+ \__,_|\___/|_| |_|\___|
+{All Finished Successfully}
+
+
+
+
+=====================================================================
+ cmdline: |C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\platforms\Quectel/tools/bk/bk_loader/bk_loader.exe download -p 34 -b 921600 -i C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\testPrj\F01DR01\ql_out\all_2M.1220.bin |
+ bk_loader version 2.1.11.15: build @Nov 14 2024 19:17:41 
+ 2025-01-10 16:55:09.504    Current port : COM34 + BaudRate : 115200 connect success
+ 2025-01-10 16:55:09.505    do_reset_signal
+ 2025-01-10 16:55:09.505    Getting Bus...
+ 2025-01-10 16:55:10.683    Getting Bus...
+ 2025-01-10 16:55:11.545    Gotten Bus...
+ 2025-01-10 16:55:11.655    Got ChipId: 0x7231c
+
+ 2025-01-10 16:55:11.657    Current Chip is : BK7231N
+ 2025-01-10 16:55:11.668    rxf-uid : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+ 2025-01-10 16:55:11.668    Got FLashMID: 0x15701c
+
+ 2025-01-10 16:55:11.685    Current baudrate : 921600 success
+ 2025-01-10 16:55:11.686    Unprotecting Flash
+ 2025-01-10 16:55:11.711    Unprotected Flash ->pass
+ 2025-01-10 16:55:11.711    [ 0 ] file_startAddr : 0x00000000
+ 2025-01-10 16:55:11.711    [ 0 ] file_path : C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\testPrj\F01DR01\ql_out\all_2M.1220.bin
+ 2025-01-10 16:55:11.711    [ 0 ] file_length : 0x132000 (1224 KB)
+ 2025-01-10 16:55:11.712    [ 0 ] file_crc : 0xf4add65a
+ 2025-01-10 16:55:11.712    Begin EraseFlash
+ 2025-01-10 16:55:11.713    Start 4K Erase
+ 2025-01-10 16:55:11.713    End 4K Erase
+ 2025-01-10 16:55:11.714    Start 64K Erase
+ 2025-01-10 16:55:15.512    End 64K Erase
+ 2025-01-10 16:55:15.513    EraseFlash ->pass
+ 2025-01-10 16:55:15.516    [ 0 ] Begin write to flash...
+ 2025-01-10 16:55:34.214    WriteFlash ->pass
+ 2025-01-10 16:55:34.238    Enprotect pass
+ 2025-01-10 16:55:34.273    Boot_Reboot
+
+ 2025-01-10 16:55:34.289    Total Test Time : 22.743 s
+ 2025-01-10 16:55:34.289    Writing Flash OK                             
+
+ 2025-01-10 16:55:34.289    
+==============================================================
+     _             (done)
+    | |                 
+  __| | ___  _ __   ___ 
+ / _  |/ _ \|  _ \ / _ \
+| (_| | (_) | | | |  __/
+ \__,_|\___/|_| |_|\___|
+{All Finished Successfully}
+
+
+
+
+=====================================================================
+ cmdline: |C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\platforms\Quectel/tools/bk/bk_loader/bk_loader.exe download -p 34 -b 921600 -i C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\testPrj2\F01DR01\ql_out\all_2M.1220.bin |
+ bk_loader version 2.1.11.15: build @Nov 14 2024 19:17:41 
+ 2025-01-10 17:04:28.774    Current port : COM34 + BaudRate : 115200 connect success
+ 2025-01-10 17:04:28.775    do_reset_signal
+ 2025-01-10 17:04:28.775    Getting Bus...
+ 2025-01-10 17:04:29.946    Getting Bus...
+ 2025-01-10 17:04:30.821    Gotten Bus...
+ 2025-01-10 17:04:30.928    Got ChipId: 0x7231c
+
+ 2025-01-10 17:04:30.928    Current Chip is : BK7231N
+ 2025-01-10 17:04:30.938    rxf-uid : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+ 2025-01-10 17:04:30.938    Got FLashMID: 0x15701c
+
+ 2025-01-10 17:04:30.955    Current baudrate : 921600 success
+ 2025-01-10 17:04:30.955    Unprotecting Flash
+ 2025-01-10 17:04:30.979    Unprotected Flash ->pass
+ 2025-01-10 17:04:30.980    [ 0 ] file_startAddr : 0x00000000
+ 2025-01-10 17:04:30.980    [ 0 ] file_path : C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\testPrj2\F01DR01\ql_out\all_2M.1220.bin
+ 2025-01-10 17:04:30.980    [ 0 ] file_length : 0x132000 (1224 KB)
+ 2025-01-10 17:04:30.981    [ 0 ] file_crc : 0x8ad22c61
+ 2025-01-10 17:04:30.981    Begin EraseFlash
+ 2025-01-10 17:04:30.981    Start 4K Erase
+ 2025-01-10 17:04:30.982    End 4K Erase
+ 2025-01-10 17:04:30.982    Start 64K Erase
+ 2025-01-10 17:04:34.796    End 64K Erase
+ 2025-01-10 17:04:34.797    EraseFlash ->pass
+ 2025-01-10 17:04:34.800    [ 0 ] Begin write to flash...
+ 2025-01-10 17:04:53.497    WriteFlash ->pass
+ 2025-01-10 17:04:53.522    Enprotect pass
+ 2025-01-10 17:04:53.553    Boot_Reboot
+
+ 2025-01-10 17:04:53.572    Total Test Time : 22.751 s
+ 2025-01-10 17:04:53.572    Writing Flash OK                             
+
+ 2025-01-10 17:04:53.573    
+==============================================================
+     _             (done)
+    | |                 
+  __| | ___  _ __   ___ 
+ / _  |/ _ \|  _ \ / _ \
+| (_| | (_) | | | |  __/
+ \__,_|\___/|_| |_|\___|
+{All Finished Successfully}
+

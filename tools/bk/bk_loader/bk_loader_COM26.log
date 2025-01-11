@@ -1,0 +1,13 @@
+
+
+
+=====================================================================
+ cmdline: |C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\platforms\Quectel/tools/bk/bk_loader/bk_loader.exe download -p 26 -b 921600 -i C:\Users\Bob.Xian\Desktop\DevPlatform\cusenv\test\bb\F01DR01\ql_out\all_2M.1220.bin |
+ bk_loader version 2.1.11.15: build @Nov 14 2024 19:17:41 
+ 2025-01-09 21:03:25.809    Current port : COM26 + BaudRate : 115200 connect success
+ 2025-01-09 21:03:25.809    do_reset_signal
+ 2025-01-09 21:03:25.809    Getting Bus...
+ 2025-01-09 21:03:26.814    Getting Bus...
+ 2025-01-09 21:03:41.873    LinkCheck Timeout
+ 2025-01-09 21:03:41.873    do_reset_signal
+ 2025-01-09 21:03:41.873    BL2 Getting Bus...
