@@ -1,2 +1,2 @@
 # DevPlatform-Quectel
-DevPlatform for quectel 2212312
+DevPlatform for quectel
