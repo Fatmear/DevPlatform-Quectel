@@ -36,7 +36,7 @@
         "available_ram_size": "125KB",
         "available_flash_size": "249KB",
         "operating_system": "FreeRTOS",
-        "flash_map": {
+        "partition": {
             "bootloader": {
                 "description": "Bootloader",
                 "start_address": "0x000000",
