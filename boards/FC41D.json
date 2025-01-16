@@ -13,7 +13,7 @@
         },
         "script": {
             "windows": "build.bat new FC41D ${firmware} ${version}",
-            "linux": "build.sh new FC41D ${firmware} ${version}"
+            "linux": "chmod 777 build.sh && ./build.sh new FC41D ${firmware} ${version}"
         }
     },
     "upload": {
